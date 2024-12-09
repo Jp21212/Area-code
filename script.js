@@ -1,5 +1,5 @@
-function area(shape, measure1, measure2){
-    if(shape === "retangle"){
+function area(shape,measure1,measure2) {
+    if(shape === "rectangle"){
         return measure1 * measure2;
     }else if(shape === "triangle"){
         return 0.5 * measure1 * measure2;
